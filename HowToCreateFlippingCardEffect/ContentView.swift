@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var flipped: Bool = false
+    @State var flip: Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Card(title: "SwiftUI", description: "Learning SwiftUI", icon: "logo")
+            Card(title: "SwiftUI", description: "Learning SwiftUI", icon: "logo")
+        }
+        .modifier(FlipEffect(flipped: $flipped, angle: 180))
     }
 }
 

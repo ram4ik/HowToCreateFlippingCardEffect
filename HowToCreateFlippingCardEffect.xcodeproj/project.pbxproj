@@ -11,6 +11,8 @@
 		9520B8F6255D68060040C4EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B8F5255D68060040C4EA /* ContentView.swift */; };
 		9520B8F8255D68080040C4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520B8F7255D68080040C4EA /* Assets.xcassets */; };
 		9520B8FB255D68080040C4EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520B8FA255D68080040C4EA /* Preview Assets.xcassets */; };
+		9520B904255D684C0040C4EA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B903255D684C0040C4EA /* Card.swift */; };
+		9520B907255D6B630040C4EA /* FlipEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B906255D6B630040C4EA /* FlipEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9520B8F7255D68080040C4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9520B8FA255D68080040C4EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9520B8FC255D68080040C4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9520B903255D684C0040C4EA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9520B906255D6B630040C4EA /* FlipEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			children = (
 				9520B8F3255D68060040C4EA /* HowToCreateFlippingCardEffectApp.swift */,
 				9520B8F5255D68060040C4EA /* ContentView.swift */,
+				9520B903255D684C0040C4EA /* Card.swift */,
 				9520B8F7255D68080040C4EA /* Assets.xcassets */,
 				9520B8FC255D68080040C4EA /* Info.plist */,
 				9520B8F9255D68080040C4EA /* Preview Content */,
+				9520B906255D6B630040C4EA /* FlipEffect.swift */,
 			);
 			path = HowToCreateFlippingCardEffect;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9520B8F6255D68060040C4EA /* ContentView.swift in Sources */,
+				9520B904255D684C0040C4EA /* Card.swift in Sources */,
 				9520B8F4255D68060040C4EA /* HowToCreateFlippingCardEffectApp.swift in Sources */,
+				9520B907255D6B630040C4EA /* FlipEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
